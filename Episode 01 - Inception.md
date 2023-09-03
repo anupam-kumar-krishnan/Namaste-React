@@ -1,4 +1,4 @@
-# _Namaste React EP1_ 🚀
+# _Namaste React EP1 Part 01_ 🚀
 - A JavaScript Library, not a Framework
 
 ### _Episode 1_
