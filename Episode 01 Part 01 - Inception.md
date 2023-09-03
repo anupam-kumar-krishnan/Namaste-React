@@ -65,7 +65,7 @@ _Before Starting_
 ```
 </b>
 
-### _Hello World Using React JS_
+### _Eject React JS in HTML5_
 
 - First, get React into the project
 - Get React by using CDN(Content Delivery Network)
@@ -73,9 +73,7 @@ _Before Starting_
 
 ### _HTML5_
 
-
 <b>
-
 
 ```html
 <!DOCTYPE html>
@@ -93,21 +91,9 @@ _Before Starting_
    <script crossorigin 
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"> 
    </script> //React Library for DOM Operations
-   <script src="./app.js"></script>
   </body>
 </html>
 ```
-
-### _app.js_
-
-```js
- const heading = document.createElement("h1");
- heading.innerHTML = "Hello World from JavaScript!";
- const root = document.getElementById("root");
- root.appendChild(heading);
-```
-
-
 
 </b>
 
