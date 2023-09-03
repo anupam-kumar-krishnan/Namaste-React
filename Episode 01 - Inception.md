@@ -1,28 +1,24 @@
-# Namaste React EP1 🚀
+# _Namaste React EP1_ 🚀
 
-### Episode 1
+### _Episode 1_
 
-Before Starting
-
+_Before Starting_
 1. Make Notes
 2. Use Laptop - Learn and Apply the same
 3. Maintain a GitHub Repository
 
-### Tools
-
+### _Tools_
 - Google Chrome(Developer Console)
 - VS Code
 
-### Small Recap of HTML, CSS and JS
-
+### _Small Recap of HTML, CSS and JS_
 - Hello World
 
-### Homework
-
+### _Homework_
 - CDN
 - Crossorigin
 
-### Use React in HTML5
+### _Use React in HTML5_
 
 Why there are two file?
 
