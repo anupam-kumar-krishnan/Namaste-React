@@ -114,9 +114,20 @@ _Before Starting_
 
 ### _Use React in HTML5_
 
-Why there are two file?
+## _Why there are two file?_
+- First file consists **_Core of React_**
+- Second file consists the **_React Library for DOM Operations_** or we can say this is the **_file that we need to modify the DOM_**
 
-- First file is Core of React
-- Second file is the react library for DOM Operations
 
-React just not work on browsers, but mobiles too i.e. React-native
+### _Can't we have both the files combined at one?_
+- Because **_React_** just not work on **_browsers_**, but **_mobiles_** too i.e. **_React-native_**
+- **_React DOM_** is like a **_bridge_** between **_React and Browsers_**
+
+
+### _Whats happens when we eject React JS in HTML?_
+
+- As soon as we eject React JS in HTML, we can actually check in console that we can see React over there and this React JS is available for us to use.
+- Now, we can use React into our code.
+- This gives a lot of important methods & functions to use.
+
+
