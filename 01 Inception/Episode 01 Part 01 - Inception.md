@@ -17,7 +17,7 @@ _Before Starting_
 
 ### _Homework_
 - CDN
-- Crossorigin
+- **_Crossorigin:_** Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. 
 
 ### _Simple Hello World in HTML5_
 <b>
