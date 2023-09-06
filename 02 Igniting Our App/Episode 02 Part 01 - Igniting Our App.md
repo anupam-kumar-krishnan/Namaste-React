@@ -48,6 +48,12 @@
 We will be using **`Parcel`** Bundler
 
 
+## **_There are two types f dependencies:_**
+### _Dev Dependencies_
+- It is generally required in a deveopment phase
+
+#### _Normal Dependencies_
+- Normal Dependencies are used in production
 
 
 
