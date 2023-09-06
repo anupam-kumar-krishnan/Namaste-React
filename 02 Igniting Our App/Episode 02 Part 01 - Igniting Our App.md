@@ -48,12 +48,20 @@
 We will be using **`Parcel`** Bundler
 
 
-## **_There are two types f dependencies:_**
+## **_There are two types of dependencies:_**
 ### _Dev Dependencies_
 - It is generally required in a deveopment phase
 
 #### _Normal Dependencies_
 - Normal Dependencies are used in production
+
+## _Caret(^) in package.json_
+- If you install a package with latest version today and tommorow a new version comes in
+- Then what will happen if you have put this caret, that package will automatically be upgraded to the latest version.
+- It will install minor versions automatically
+
+## _Tilde(~) in package.json_
+- It will install major version automatically
 
 
 
