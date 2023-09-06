@@ -24,6 +24,15 @@
 - Any package you need to include in your project, you use NPM
 - All packages are hosted over there
 
+### **_Note:_** _Package.json is a configuraion for NPM_
+
+## _Why do we need this package.json?_
+- Our project is dependent on a lot of packages, those pakages with the project are dependent on the dependencies and NPM manages that
+- NPM will take care of the version of that package
+- **_package.json is a configuration for NPM_**
+- **_Package_** and **_dependency_** are same
+
+
 
 
 
