@@ -33,6 +33,23 @@
 - **_Package_** and **_dependency_** are same
 
 
+## _The most important package: Bundler_
+- Bundler basically bundles your app, packages your app properly so that it can be shipped to production
+
+## _Some of Bundler:_
+- Webpack
+- Parcel
+- Vite
+
+## **_Note_**
+- When we write **`create-react-app`**, behind the scenes uses **_Webpack Bundler_**
+
+## **_Parcel_**
+We will be using **`Parcel`** Bundler
+
+
+
+
 
 
 
