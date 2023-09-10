@@ -3,10 +3,10 @@
 
 ## _What Igniting Our App means?_
 - We have written code in <b>`HTML`, `CSS` and `JS`</b>, but is this code ready to Production? NO right
-- This code is **not** **`fully optimiszd`, `random comments coming`, `console.logs`** etc.
+- This code is **not** **`fully optimized`, `random comments`, `console.log`** etc.
 - We want to minify our code, we want to bundle our code
 - To make your code ready to **`production`**, you need a lot of **`processing in your local`**/ or a lot of processing before you put the code to production
-- You need to basically do <b>`bundling`</b>, <b>`code spliting`</b>, <b>`chunking`</b>, <b>`compressing`</b> before you can make your code go to production
+- You need to basically do <b>`bundling`</b>, <b>`code spliting`</b>, <b>`chunking`</b>, <b>`compressing`</b> before you can make your code go to **`production`**
 
 ## _Can React alone make a production ready app?_
 - **_No Right_**. There are a lot of packages, JavaScript code that somebody has written makes our app fast to an extent but alot of packages are needed
