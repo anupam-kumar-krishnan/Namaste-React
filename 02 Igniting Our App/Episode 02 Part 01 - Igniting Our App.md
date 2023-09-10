@@ -91,6 +91,8 @@ We will be using **`Parcel`** Bundler
 - It contains all the code that we fetched from NPM
 - It has actual dependencies that our project needs and that's why it is huge
 
+## _Transitive dependency_
+
 
 
 
