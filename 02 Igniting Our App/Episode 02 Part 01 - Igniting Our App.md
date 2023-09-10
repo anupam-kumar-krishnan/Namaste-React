@@ -8,9 +8,9 @@
 - To make your code ready to **`production`**, you need a lot of **`processing in your local`**/ or a lot of processing before you put the code to production
 - You need to basically do <b>`bundling`</b>, <b>`code spliting`</b>, <b>`chunking`</b>, <b>`compressing`</b> before you can make your code go to **`production`**
 
-## _Can React alone make a production ready app?_
-- **_No Right_**. There are a lot of packages, JavaScript code that somebody has written makes our app fast to an extent but alot of packages are needed
-
+## _Suppose you have to build a fast production ready app and Can React alone make a production ready app?_
+- **_No Right_**. There are a lot of packages that are required to amke our production ready app, lot of JavaScript code that somebody has written makes our app fast to an extent but alot of packages are needed
+- React is making app fast but to an extent, there are lot of other things we need to make our app fast, a lot of packages are required
 
 ## _How you can make your production readdy app? <br>(without using npx create-react-app)_
 
