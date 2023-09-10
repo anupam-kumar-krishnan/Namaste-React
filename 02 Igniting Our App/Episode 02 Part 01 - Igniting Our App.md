@@ -59,12 +59,13 @@ We will be using **`Parcel`** Bundler
 - If you install a package with latest version today and tommorow a new version comes in
 - Then what will happen if you have put this caret, that package will automatically be upgraded to the latest version.
 - It will install minor versions automatically
+- It is always safe to put Caret to update the minor versions but not tilde as a major upgrade may brak a lot of things in the app
+
 
 ## _Tilde(~) in package.json_
 - It will install major version automatically
 
-
-
+## Important: Caret(^) vs Tilde(~)
 
 
 
