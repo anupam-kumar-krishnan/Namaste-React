@@ -67,6 +67,34 @@ We will be using **`Parcel`** Bundler
 
 ## Important: Caret(^) vs Tilde(~)
 
+## Important Points:
+### _package.json_
+- When we install any package, dev dependencies were added in **_package.json_**
+- **_package.json_** keeps a track of what version in installed in your system
+- It keeps the **_approx version_** of packages
+- _**package.json**_ is a _**configuraion for NPM**_
+
+
+### _package-lock.json_
+- But we also got another file named **_package-lock.json_**
+- **_package-lock.json_** keeps the exact version which is being installed
+- It kind of locks the version and keeps the record of it
+- It keeps the **_exact version_** of packages
+
+### _shash2 in parcel (package-lock.json)_
+- Have you herd that sometimes, code works on local but breaks on production
+- It keeps the shash that whatever is in my dev machine, is the same version which is being deployed onto the production.
+
+### _Defference: package.json VS package-lock,json_
+
+## _Node Modules_
+- It contains all the code that we fetched from NPM
+- It has actual dependencies that our project needs and that's why it is huge
+
+
+
+
+
 
 
 
