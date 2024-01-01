@@ -37,6 +37,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 ```
 
+`{}` - _this object is the place where you will give attributes to your tags_
+
+_Suppose_
+
+```javascript
+const heading = React.createElement(
+  "h1",
+  {id:"heading"},
+  "Hello World from React JS!!"
+);
+```
+
 ## _Attributes_
 
 ```javascript
