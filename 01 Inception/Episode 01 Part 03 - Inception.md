@@ -54,14 +54,23 @@ const heading = React.createElement(
 ```javascript
 const heading = React.createElement(
 "h1",
- {id: "heading", xyz:"abc"},
-"Hello World from React JS!!"
+ {id: "heading", xyz:"abc"},  // attributes
+"Hello World from React JS!!" // children
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 ```
 
+`props` - props are children + the attributes that we pass
+
+Here, props are-
+```javascript
+{id: "heading", xyz:"abc"},
+"Hello World from React JS!!"
+```
+
 </b>
+
 
 
 
