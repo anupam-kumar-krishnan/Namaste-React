@@ -1,9 +1,9 @@
 # _Namaste React EP1 Part 01_ 🚀
-- A JavaScript Library, not a Framework
+- A <b>_JavaScript Library_</b>, **_not_** a **_Framework_**
 
 ### _Episode 1_
 
-_Before Starting_
+_**Before Starting**_
 1. Make Notes
 2. Use Laptop - Learn and Apply the same
 3. Maintain a GitHub Repository
