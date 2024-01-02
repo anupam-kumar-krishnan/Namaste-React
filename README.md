@@ -1,7 +1,9 @@
 # _Content 👨‍💻⚛️_
 
 <b><i>
-01. Inception<br>
+<details>
+<summary>01. Inception</summary>
+
     - Hello World just using HTML
     - Hello World using JavaScript
     - Bring React into Code (using CDN)
@@ -12,13 +14,13 @@
     - render method helps to put the content onto the page
     - ReactElement(Object) => HTML(Browser Understandable)
     - createElement API takes in 3 argument
-         - Name of the tag
-         - Attributes
-         - Children
+         I. Name of the tag
+         II. Attributes
+         III. Children
             - If there are multiple children then pass it in an array otherwise as it is
-     - Whatever we are passing from root.render, it is getting replaced what is there inside root
+    - Whatever we are passing from root.render, it is getting replaced what is there inside root
     - If there is something on the top or the bottom of the page, we can still use React in that small portion of the page
-
+</details>
 
 
 
