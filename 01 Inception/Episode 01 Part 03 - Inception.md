@@ -62,7 +62,8 @@ const heading = React.createElement( // here heading is an object
 console.log(typeof heading); //object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(heading); 
+//this render method is responsible to take this object(heading here) and convert in tag and put it up in DOM
 ```
 
 `props` - props are children + the attributes that we pass
