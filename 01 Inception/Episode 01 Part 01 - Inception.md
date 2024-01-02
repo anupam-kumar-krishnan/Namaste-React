@@ -101,8 +101,11 @@ _**Before Starting**_
 ### _Use React in HTML5_
 
 ## _Why there are two file?_
-- First file consists **_Core of React_** (react.development.js)
-- Second file consists the **_React Library for DOM Operations_** or we can say this is the **_file that we need to modify the DOM_** (react-dom.development.js)
+### _react.development.js_
+- First file consists **_Core of React_**
+
+### _react-dom.development.js_
+- Second file consists the **_React Library for DOM Operations_** or we can say this is the **_file that we need to modify the DOM_** 
 
 
 ### _Can't we have both the files combined at one?_
