@@ -53,11 +53,14 @@ const heading = React.createElement(
 ## _Attributes_
 
 ```javascript
-const heading = React.createElement(
+const heading = React.createElement( // here heading is an object
 "h1",
  {id: "heading", xyz:"abc"},  // attributes
 "Hello World from React JS!!" // children
 );
+
+console.log(heading); //heading
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 ```
