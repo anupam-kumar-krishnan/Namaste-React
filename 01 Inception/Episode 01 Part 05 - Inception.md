@@ -37,7 +37,7 @@ As seeen above, if we write the <b>`<script src="./app.js"></script>`</b>, this 
 ## _Library📘 VS Framework⚛️: What React is Library or Framework?_
 - We call <b>`React JS`</b> as library because React can be applied to a <b>`small portion`</b> of a page itself 
 - React JS can work <b>`independently`</b> in a <b>`small portion of your app`</b> as well
-- Not all frameworks can be applied to an existing app, but you can just React and start using in a small portion 
+- Not all frameworks can be applied to an existing app, but you can just eject React and start using in a small portion 
 - This is why <b>`React JS`</b> is a library.
 
 
