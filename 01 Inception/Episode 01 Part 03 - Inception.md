@@ -74,7 +74,7 @@ Here, props are-
 - The most costly operation in webpage is **_when the DOM nodes needs to be manipulated._**
 - Putting somes nodes in the DOM, removing some nodes from the DOM(operation)
 - And all these frameworks & libraries are coming to optimise this
-- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript
+- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript(i.e. Manipulting the DOM using JavaScript)
 
 
 
