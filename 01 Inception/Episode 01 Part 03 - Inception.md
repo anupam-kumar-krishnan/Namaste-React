@@ -39,7 +39,8 @@ root.render(heading);
 
 `{}` - _this object is the place where you will give attributes to your tags_
 
-_Suppose_
+### _Suppose_
+- If we need to give attribute to a class or element say h1 here, we can give in object is id
 
 ```javascript
 const heading = React.createElement(
@@ -74,7 +75,8 @@ Here, props are-
 - The most costly operation in webpage is **_when the DOM nodes needs to be manipulated._**
 - Putting somes nodes in the DOM, removing some nodes from the DOM(operation)
 - And all these frameworks & libraries are coming to optimise this
-- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript(i.e. Manipulting the DOM using JavaScript)
+- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript<br>
+   (i.e. Manipulting the DOM using JavaScript)
 
 
 
