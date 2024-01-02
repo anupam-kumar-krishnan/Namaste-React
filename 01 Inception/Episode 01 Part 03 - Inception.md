@@ -59,7 +59,7 @@ const heading = React.createElement( // here heading is an object
 "Hello World from React JS!!" // children
 );
 
-console.log(heading); //heading
+console.log(typeof heading); //object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
