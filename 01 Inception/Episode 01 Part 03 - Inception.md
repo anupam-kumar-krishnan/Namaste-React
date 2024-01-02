@@ -68,8 +68,16 @@ Here, props are-
 {id: "heading", xyz:"abc"},
 "Hello World from React JS!!"
 ```
-
 </b>
+
+## _What is the most costly operation in webpage?_
+- The most costly operation in webpage is **_when the DOM nodes needs to be manipulated._**
+- Putting somes nodes in the DOM, removing some nodes from the DOM(operation)
+- And all these frameworks & libraries are coming to optimise this
+- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript
+
+
+
 
 
 
