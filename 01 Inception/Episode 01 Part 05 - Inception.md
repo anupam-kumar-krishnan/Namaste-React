@@ -26,7 +26,7 @@ As seeen above, if we write the <b>`<script src="./app.js"></script>`</b>, this 
 
 
 
-**_Note: The order of these files are always in sequence_**
+## 🌟 **_Note: The order of these files are always in sequence_** 🌟
 
 ## _Root.render(parent)_
 - It is puting that parent inside the root tag
