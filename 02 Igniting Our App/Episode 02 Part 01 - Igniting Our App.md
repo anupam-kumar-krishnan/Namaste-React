@@ -94,10 +94,26 @@ We will be using **`Parcel`** Bundler
 ## _Transitive dependency_
 A transitive dependency is one not imported directly into the project at hand, but instead imported by a direct dependency or another transitive dependency. 
 
-## _Should Ipush all these node_modules code to GitHub_
+## _Should I push all these node_modules code to GitHub🤔💭_
 - The answer is absolutely **_NO_**.
 - So what we will do is, we will put this node_modules inside `.gitignore` file
 - `.gitignore:` If you want something to not go on Github, just put inside `.gitignore` file
+
+## _Should I push package.json and package-lock.json on GitHib?🤔💭_
+- The answer is absolutely **_YES_**
+- package.json and package-lock.json maintains a note of what all dependencies a project needs
+- Now you understand why package-lock.json is huge, it is basically maintaining the exact version of each dependency
+
+## _Why we don't push node modules to GitHub🤔💭_
+- If you have _**package.json**_ and _**package-lock.json**_, you can recreate all your _**node modules**_ 
+
+
+
+
+
+
+
+
 
 
 
