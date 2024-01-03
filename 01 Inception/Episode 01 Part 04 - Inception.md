@@ -77,11 +77,11 @@ const parent = React.createElement("div", { id: "parent" }, [
   ]),
 ]);
 ```
-
+</b>
 <b><i>
 
 ## _Important_
-- Now, one must be thinking that its very tough to write siblings like this, but the motive of react was to make code easy for us right, that's why JSX has been intoduced
+- Now, one must be thinking that its very tough to write siblings like this, but the motive of react was to make code easy for us right, that's why JSX has been introduced
 
 - JSX will make our life easy, when it comes to making tags
 </i></b>
@@ -91,10 +91,23 @@ const parent = React.createElement("div", { id: "parent" }, [
 <b><i>
 - Now, we will no longer be using createElement
 - We will learn React 18 stuff
-</i></i>
-
-
+</i>
 </b>
+
+
+## _createElement_
+_**createElement** API takes in **3 arguments**_ <br>
+<b>
+- _Name of the tag_ <br>
+- _Attributes_ <br>
+- _Children_
+</b>
+
+## 🎯 _Note:_
+_If there are multiple children then pass it in an _**array**_ otherwise as it is_
+
+
+
 
 
 
