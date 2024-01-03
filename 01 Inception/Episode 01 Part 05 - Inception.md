@@ -2,7 +2,7 @@
 
 In the previous parts, we have ejected react using two files i.e. <b><i>Core of React JS</b></i> and <b><i>React DOM</b></i>
 
-### _But, will the order of these two files matter?_
+### _But, will the order of these two files matter?📂_
 <b>
 
 
@@ -28,11 +28,11 @@ As seeen above, if we write the <b>`<script src="./app.js"></script>`</b>, this 
 
 ## 🌟 **_Note: The order of these files are always in sequence_** 🌟
 
-## 🚀 _Root.render(parent)_
-- It is puting that parent inside the root tag
-- But if something is already there in the id, then it will be **replaced** the content from there to concent placed in render.
-- It is replaced **_very fast_** 🚀
-- Whatever is rendered, it is rendered inside the root and rest remains the same
+## 🍀 _Root.render(parent)_ 🍀
+- It is puting that parent inside the root🫚 tag
+- But if something is already there in the id, then it will be **replaced🔁** with the content from there to content placed in render.
+- It is replaced **_very fast💨_** 🚀
+- Whatever is rendered, it is rendered inside the root🫚 and rest remains the same
 
 ## _Library📘 VS Framework⚛️: What React is Library or Framework?_
 - We call <b>`React JS`</b> as library because React can be applied to a <b>`small portion`</b> of a page itself 
