@@ -1,30 +1,31 @@
 # _Igniting Our App 🚀_
 ### _Episode 02 Part 01_
 
-## _What Igniting Our App means?_
-- We have written code in <b>`HTML`, `CSS` and `JS`</b>, but is this code ready to Production? NO right
-- This code is **not** **`fully optimized`, `random comments`, `console.log`** etc.
-- We want to minify our code, we want to bundle our code
+## _What Igniting🔥 Our App means?_
+- We have written code in <b>`HTML`, `CSS` and `JS`</b>, but _**"Is this code ready to push to Production?"**_ _**NO right**_
+- _**What is the issue in this code?**_ 🤔💭 This code is **not** **`fully optimized`, `random comments`, `console.log`** etc.
+- We want to _**minify our code**_, we want to _**bundle**_ our code
+- If we have a lot of images, we have to _**optimize those images**_
 - To make your code ready to **`production`**, you need a lot of **`processing in your local`**/ or a lot of processing before you put the code to production
 - You need to basically do <b>`bundling`</b>, <b>`code spliting`</b>, <b>`chunking`</b>, <b>`compressing`</b> before you can make your code go to **`production`**
 
-## _Suppose you have to build a fast production ready app and Can React alone make a production ready app?_
-- **_No Right_**. There are a lot of packages that are required to amke our production ready app, lot of JavaScript code that somebody has written makes our app fast to an extent but alot of packages are needed
+## _Suppose you have to build⚒️ a fast production ready app and Can React⚛️ alone make a production ready app🏃‍♂️🚩?_
+- **_No Right_**. There are a lot of packages that are required to make our production ready app, lot of JavaScript code that somebody has written makes our app fast to an extent but alot of packages are needed
 - React is making app fast but to an extent, there are lot of other things we need to make our app fast, a lot of packages are required
 
-## _How you can make your production readdy app? <br>(without using npx create-react-app)_
+## _How you can make your production ready app? <br>(without using npx create-react-app)<br> How we can get those packages in our app_
 
-## _What is not NPM?_
+## _❌ What is not NPM?_
 - NPM is everything, but not **`Node Package Manager`**
-- NPM doesn't have a full form
+- NPM _**doesn't**_ have a _**full form**_
 - NPM manages packages but it does not stand for  **`Node Package Manager`**
 
-## _What NPM actually is?_
+## _✅ What NPM actually is?_
 - NPM is a Standard repository for all the packages
 - Any package you need to include in your project, you use NPM
 - All packages are hosted over there
 
-### **_Note:_** _Package.json is a configuraion for NPM_
+## **_🍁 Note:_** _Package.json is a configuration for NPM_
 
 ## _Why do we need this package.json?_
 - Our project is dependent on a lot of packages, those pakages with the project are dependent on the dependencies and NPM manages that
@@ -50,10 +51,10 @@ We will be using **`Parcel`** Bundler
 
 ## **_There are two types of dependencies:_**
 ### _Dev Dependencies_
-- It is generally required in a development phase
+- It is generally required in a **_development phase_**
 
-#### _Normal Dependencies_
-- Normal Dependencies are used in production
+### _Normal Dependencies_
+- Normal Dependencies are used in **_production_**
 
 ## _Caret(^) in package.json_
 - If you install a package with latest version today and tommorow a new version comes in
@@ -65,14 +66,14 @@ We will be using **`Parcel`** Bundler
 ## _Tilde(~) in package.json_
 - It will install major version automatically
 
-## Important: Caret(^) vs Tilde(~)
+## ⚠️ _Important: Caret(^) vs Tilde(~)_
 
 ## Important Points:
 ### _package.json_
 - When we install any package, dev dependencies were added in **_package.json_**
 - **_package.json_** keeps a track of what version in installed in your system
 - It keeps the **_approx version_** of packages
-- _**package.json**_ is a _**configuraion for NPM**_
+- _**package.json**_ is a _**configuration for NPM**_
 
 
 ### _package-lock.json_
@@ -85,7 +86,7 @@ We will be using **`Parcel`** Bundler
 - Have you herd that sometimes, code works on local but breaks on production
 - It keeps the shash that whatever is in my dev machine, is the same version which is being deployed onto the production.
 
-### _Defference: package.json VS package-lock,json_
+### _Difference: package.json VS package-lock,json_
 
 ## _Node Modules_
 - It contains all the code that we fetched from NPM
