@@ -1,6 +1,6 @@
 # _Namaste React Episode 01 Part 02_ 🚀
 
-- After writing Hellow word using plain HTML, using plain Javascript and after ejecting React JS, We are now writing the same using React JS
+- After writing Hello World using plain HTML, using plain Javascript and after ejecting React JS, We are now writing the same using **_React JS_**
 
 <b>
 
