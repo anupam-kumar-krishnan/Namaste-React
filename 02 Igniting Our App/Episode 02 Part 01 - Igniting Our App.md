@@ -59,16 +59,15 @@ We will be using **`Parcel`** Bundler
 ## _Caret(^) in package.json_
 - If you install a package with latest version today and tommorow a new version comes in
 - Then what will happen if you have put this caret, that package will automatically be upgraded to the latest version.
-- It will install minor versions automatically
-- It is always safe to put Caret to update the minor versions but not tilde as a major upgrade may brak a lot of things in the app
-
+- It will install **_"Minor Versions Automatically"_**
+- It is always safe to put Caret to update the minor versions but not tilde as a major upgrade may break a lot of things in the app
 
 ## _Tilde(~) in package.json_
-- It will install major version automatically
+- It will install **_"Major Version Automatically"_**
 
 ## ⚠️ _Important: Caret(^) vs Tilde(~)_
 
-## Important Points:
+## ‼️ _Important Points:_
 ### _package.json_
 - When we install any package, dev dependencies were added in **_package.json_**
 - **_package.json_** keeps a track of what version in installed in your system
@@ -89,12 +88,16 @@ We will be using **`Parcel`** Bundler
 ### _Difference: package.json VS package-lock,json_
 
 ## _Node Modules_
-- It contains all the code that we fetched from NPM
-- It has actual dependencies that our project needs and that's why it is huge
+- It contains all the code that we fetched from **_NPM_**
+- It has _**actual data of dependencies**_ that our project needs and that's why it is **_Huge_**
 
 ## _Transitive dependency_
+A transitive dependency is one not imported directly into the project at hand, but instead imported by a direct dependency or another transitive dependency. 
 
-
+## _Should Ipush all these node_modules code to GitHub_
+- The answer is absolutely **_NO_**.
+- So what we will do is, we will put this node_modules inside `.gitignore` file
+- `.gitignore:` If you want something to not go on Github, just put inside `.gitignore` file
 
 
 
