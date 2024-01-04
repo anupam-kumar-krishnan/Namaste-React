@@ -87,17 +87,33 @@ import ReactDOM from "react-dom/client"
 ## _Magic🪄_ _Automatically Refershing of Page_
 - This is done by the use of **`"Parcel"`**
 
-## _Parcel_
+## _Parcel_ 📦 
 - Dev Build
 - Local Server
-- Hot Module Replacement(HMR) (Auto Refersing)
+- Hot Module Replacement(HMR) (Auto Refershing)
 - How Parcel does this Auto Refresh? <br>Parcel uses a file watching algorithm - written in C++
 - Caching - Faster Builds⚒️<br>
-(if we build subsequently, it will reduce the time, as it is caching things up)
+_**If we build subsequently, it will reduce the time, as it is caching things up**_
+   - Where it is Caching things up? 
+      - In .parcel-cache folder
 - Image Optimization
 - Minification
 - Bundling
 - Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - support older browser
+- Diagnostic
+- Error Handling
+- Tree Shaking - remove unused code for you
+- HTTPs
+  - **_Suppose I want to test something which only works in https(SSL), Parcel gives you that feature also_**
+- Different dev and prod bundles
+
+
+
+
+
 
 
 
