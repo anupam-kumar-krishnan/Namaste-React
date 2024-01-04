@@ -37,7 +37,7 @@ npm install react
 - Now we will install React as a Package in our code
 
 ## _If we remove the CDN Links_
-- Then it will throw an error that <b>`React is mot defined`</b>
+- Then it will throw an error that <b>`React is not defined`</b>
 - And it will display only what is there in HTML, not the content which id rendered in React(as we have removed the CDN links & also we have just installed react but not used it i.e. imported React JS)
 
 ## _[Now]: Import React from Node modules_
@@ -60,14 +60,14 @@ import ReactDOM from "react-dom";
 - In HTML, we are ejectng App.js, so it treats this script as a browser script. It treats this is a normal javascript file (normal javaScript does not have import in it), but in actual it is not
 
 ## _Make browser understand that the file App.js is not a normal file_
-- This is why, we need to tell browser zbout the file which is not a normal file, it's a module
+- This is why, we need to tell browser about the file which is not a normal file, it's a module
 - To make browser understand, add <b>`type=module`</b> in script tag
 
 ```js
 <script type=module" src="./App.js"></script>
 ```
 
-- Now, React is not comming from the CDN link, but from the dependecy which we have installed(from node_modules)
+- Now, React is not coming from the CDN link, but from the dependency which we have installed(from node_modules)
 
 ## _Warning_
 
@@ -75,7 +75,7 @@ import ReactDOM from "react-dom";
 Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".
 ```
 
-- Now this warning will be comming in console
+- Now this warning will be coming in console
 - To overcome this error, write 
 
 ```js
@@ -84,7 +84,7 @@ import ReactDOM from "react-dom/client"
 
 - And the warning will be gone
 
-## _Magic🪄_ Automatically refershing of page
+## _Magic🪄_ _Automatically Refershing of Page_
 - This is done by the use of **`"Parcel"`**
 
 ## _Parcel_
