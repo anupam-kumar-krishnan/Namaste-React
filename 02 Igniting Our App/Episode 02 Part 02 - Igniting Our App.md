@@ -29,7 +29,7 @@ npm install react
 </b>
 
 ## _Install React as a Package. But Why?_
-- Fetching from CDN takes a costly operation, it will a networ call to unpkg.com and it will get React from unpkg.com
+- Fetching from CDN takes a costly operation, it will a network call to unpkg.com and it will get React from unpkg.com
 - Suppose if I already have React in my node_modules, how easy it would it be to use React in our code
 - We don't make another network call to get React, we will already have in our node modules
 - Suppose another version of React comes in future, so we have to keep change the version of React in CDN link. 
@@ -38,7 +38,7 @@ npm install react
 
 ## _If we remove the CDN Links_
 - Then it will throw an error that <b>`React is mot defined`</b>
-- And it will display only what is there in HTML, not the content which id rendered in React(as we have removed the CDN links & also we jave just installed react but not used it i.e. imported React JS)
+- And it will display only what is there in HTML, not the content which id rendered in React(as we have removed the CDN links & also we have just installed react but not used it i.e. imported React JS)
 
 ## _[Now]: Import React from Node modules_
 
