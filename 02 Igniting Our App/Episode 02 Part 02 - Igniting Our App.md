@@ -26,9 +26,106 @@ npx parcel index.html
 ```js
 npm install react
 ```
-<b>
+</b>
 
-Restart from `1:04:57`
+## _Install React as a Package. But Why?_
+- Fetching from CDN takes a costly operation, it will a networ call to unpkg.com and it will get React from unpkg.com
+- Suppose if I already have React in my node_modules, how easy it would it be to use React in our code
+- We don't make another network call to get React, we will already have in our node modules
+- Suppose another version of React comes in future, so we have to keep change the version of React in CDN link. 
+- So it's better to have it in our package.json, it is easier to manage all our dependencies, it is very easy to manage React also as one of the dependenies inside our npm package.json
+- Now we will install React as a Package in our code
+
+## _If we remove the CDN Links_
+- Then it will throw an error that <b>`React is mot defined`</b>
+- And it will display only what is there in HTML, not the content which id rendered in React(as we have removed the CDN links & also we jave just installed react but not used it i.e. imported React JS)
+
+## _[Now]: Import React from Node modules_
+
+```js
+import React from "react";
+```
+
+- Here, this react basically refers to the react inside our node module
+- Similarly we will import react-dom from our node_modules
+
+
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+```
+
+- Now, will the code work? It shows an error, `browser scripts cannot have imports & exports`
+- What does `browser scripts cannot have imports & exports` mean
+- In HTML, we are ejectng App.js, so it treats this script as a browser script. It treats this is a normal javascript file (normal javaScript does not have import in it), but in actual it is not
+
+## _Make browser understand that the file App.js is not a normal file_
+- This is why, we need to tell browser zbout the file which is not a normal file, it's a module
+- To make browser understand, add <b>`type=module`</b> in script tag
+
+```js
+<script type=module" src="./App.js"></script>
+```
+
+- Now, React is not comming from the CDN link, but from the dependecy which we have installed(from node_modules)
+
+## _Warning_
+
+```js
+Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".
+```
+
+- Now this warning will be comming in console
+- To overcome this error, write 
+
+```js
+import ReactDOM from "react-dom/client"
+```
+
+- And the warning will be gone
+
+## _Magic🪄_ Automatically refershing of page
+- This is done by the use of **`"Parcel"`**
+
+## _Parcel_
+- Dev Build
+- Local Server
+- Hot Module Replacement(HMR) (Auto Refersing)
+- How Parcel does this Auto Refresh? <br>Parcel uses a file watching algorithm - written in C++
+- Caching - Faster Builds⚒️<br>
+(if we build subsequently, it will reduce the time, as it is caching things up)
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
