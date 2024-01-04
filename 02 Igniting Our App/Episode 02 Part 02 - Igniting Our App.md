@@ -13,7 +13,7 @@ npx parcel index.html
 - Just like we have npm, we have something known as npx
 - **npx** means _**Executing a Package**_
 
-## _Parcel_
+## _Parcel📦_ 
 - Parcel goes to the index.html and builds a development build for our app. <br>And it host that development build to our localhost:1234
 
 ## _Ways to get React into our app_
@@ -28,7 +28,7 @@ npm install react
 ```
 </b>
 
-## _Install React as a Package. But Why?_
+## _Install React⚛️ as a Package. But Why?🤔💭_
 - Fetching from CDN takes a costly operation, it will a network call to unpkg.com and it will get React from unpkg.com
 - Suppose if I already have React in my node_modules, how easy it would it be to use React in our code
 - We don't make another network call to get React, we will already have in our node modules
@@ -69,7 +69,7 @@ import ReactDOM from "react-dom";
 
 - Now, React is not coming from the CDN link, but from the dependency which we have installed(from node_modules)
 
-## _Warning_
+## _Warning_ ⚠️
 
 ```js
 Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".
@@ -109,6 +109,50 @@ _**If we build subsequently, it will reduce the time, as it is caching things up
 - HTTPs
   - **_Suppose I want to test something which only works in https(SSL), Parcel gives you that feature also_**
 - Different dev and prod bundles
+
+## _Production built using Parcel_ 📦
+
+<b>
+
+```js
+npx parcel build index.html
+```
+</b>
+
+- Note: remove the main: "App.js" from package.json as there the entry point is App.js but we are running index.html
+- All the Production built goes inside **_dist folder_**
+- It takes time to build production built(1.4s) while parcel took 431ms
+
+## _Note:_
+- _**.parcel-cache**_ and _**dist**_ are Temporary folders, they can be regenerated
+
+## _Browserslist_ 🔮🪄
+[BrowsersList Website](https://browserslist.dev/)
+
+- Tell your project that what all browsers should your app be supported in
+- You have to configure it in package.json
+- Use Case of browserslist: In Case of Government Websites, it should work on the oldest versions too(have 99% of browser coverage)
+<b>
+
+```js
+"browserslist": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+ ]
+```
+</b>
+
+## _We have built our own create-react-app⚛️ in this episode✨💫🌟🌠_
+
+
+
+
+
+
+
+
+
+
 
 
 
