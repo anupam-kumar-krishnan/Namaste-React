@@ -14,7 +14,7 @@ const heading = React.createElement("h1", {id: "heading"}, "Namaste React 🚀")
 </b>
 
 ## _Not Rendered_
-- If something goes wrong, then we write for better practice/understanding `Not Rendered` inside div root
+- Anytime in your app, **`Not Rendered`** displaying on the screen that means there is a problem with your `render`. Also it is a better practice/understanding.
 
 <b>
 
