@@ -35,7 +35,8 @@ const jsxHeading = <h1>Namaste React using JSX 🚀</h1>;
 </b>
 
 ## _**⚠️Important Note:⚠️**_ 
-_**JSX is not HTML written inside JavaScript**_
+- _**JSX is not HTML written inside JavaScript**_
+- **_JSX is not HTML, JSX is HTML like Syntax or XML like_**
 
 ### _React element using core React VS React element using JSX_
 <b>
