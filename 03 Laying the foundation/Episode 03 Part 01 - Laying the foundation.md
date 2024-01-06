@@ -32,7 +32,7 @@ npx parcel index.html
 
 ### _How to run these Scripts_
  
-**_start:_** 
+**_Start Project Locally:_** 
 <b>
 
  ```js
@@ -41,7 +41,7 @@ npx parcel index.html
 </b>
 
 
-**_build:_**
+**_Build for Prouction:_**
 <b>
 
  ```js
