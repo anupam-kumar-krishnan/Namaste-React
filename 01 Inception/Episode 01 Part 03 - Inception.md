@@ -32,10 +32,19 @@ Now separate the file in HTML and JavaScript
 ## _app.js_
 
 ```javascript
-const heading = React.createElement("h1",{},"Hello World from React JS!!");
+const heading = React.createElement(
+  "h1", //Name of tag
+  {id:"heading"}, //Attribute
+  "Hello World from React JS!!" //Children
+);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 ```
+
+_**Here, the three parameters of creteElement:**_
+ - _Name of the tag_
+ - _Attributes_
+ - _Children_
 
 `{}` - _this object is the place where you will give attributes to your tags_
 
@@ -78,8 +87,8 @@ Here, props are-
 ## _What is the most costly operation in webpage?_
 - The most costly operation in webpage is **_when the DOM nodes needs to be manipulated._**
 - Putting somes nodes in the DOM, removing some nodes from the DOM(operation)
-- And all these frameworks & libraries are coming to optimise this
-- React comes with a philosophy, that whatever is needed to be done in a webpage, do it in javascript<br>
+- And all these frameworks & libraries are coming to _**optimise this operation**_
+- **_React_** comes with a philosophy, that _**whatever is needed to be done in a webpage, do it in JavaScript**_<br>
    (i.e. Manipulting the DOM using JavaScript)
 
 
