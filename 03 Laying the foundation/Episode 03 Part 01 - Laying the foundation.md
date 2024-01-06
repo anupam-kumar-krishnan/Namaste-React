@@ -13,6 +13,7 @@ npx parcel index.html
 ## _Scripts to build our Project_
 - The commands are different for development build and production build
 - To make our life easier, we create a script that will build our project instead of writing this command again and again
+- It's a standard convention in the industry to build our scripts
 - We need to create the script in _**package.json**_
 
 
