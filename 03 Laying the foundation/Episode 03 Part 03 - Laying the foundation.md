@@ -4,10 +4,13 @@
 ## _React Element_
 - It's not very **developer friendly**, it's very **hard** to read also
 - It looks very clumsy
+- **`React.createElement`** => **`ReactElement - JS Object`** => **`HTMLElement(render)`**
 
 <b>
 
 ```js
+// React.createElement => ReactElement - JS Object => HTMLElement(render)
+
 const heading = React.createElement(
  "h1",
  {id: "heading"},
@@ -90,7 +93,31 @@ Then JS Engines receives the code that browsers can understand**_
 - _**`Parcel`** installs **`Babel`**_
 - **`Babel`** is a JavaScript compiler that converts modern JavaScript code into a version compatible with all browsers.
 - Babel's job is to transform **`JSX`** to **`React`** code
+- **`JSX`** => Babel transpiles it to **`React.createElement`** => **`ReactElement-JS Object`** => **`HTMLElement(render)`**
+- **`Babel`** is converting **`JSX`** to **`React Element`**
 
 
 ![working of jsx code](https://github.com/anupam-kumar-krishnan/Namaste-React/assets/69143883/702df916-c9bb-49f9-9fa6-a0e57e352b96)
 
+## _‼️JSX is not HTML‼️_
+- class is className
+- **_Camel-case_** is used in JSX
+
+_**In HTML, we write:**_
+<b>
+
+```jsx
+<h1 class="head">Namaste React using JSX 🚀</h1>;
+```
+
+_**In JSX, we write:**_
+
+```jsx
+const jsxHeading = <h1 className="head">Namaste React using JSX 🚀</h1>;
+```
+
+## _Multiple Line_
+ - If you write JSX is multiple lines, then it is mandatory to enclose the code in backets which makes `Babel` easy to understand where JSX is starting ad where it is ending
+
+
+</b>
