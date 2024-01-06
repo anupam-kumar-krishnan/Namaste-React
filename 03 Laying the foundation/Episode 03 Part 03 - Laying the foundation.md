@@ -89,3 +89,7 @@ Then JS Engines receives the code that browsers can understand**_
 - _**`Parcel`** installs **`Babel`**_
 - **`Babel`** is a JavaScript compiler that converts modern JavaScript code into a version compatible with all browsers.
 - Babel's job is to transform **`JSX`** to **`React`** code
+
+
+![working of jsx code](https://github.com/anupam-kumar-krishnan/Namaste-React/assets/69143883/702df916-c9bb-49f9-9fa6-a0e57e352b96)
+
