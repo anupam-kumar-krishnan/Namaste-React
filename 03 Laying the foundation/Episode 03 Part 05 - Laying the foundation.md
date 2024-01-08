@@ -20,4 +20,22 @@ return (
 
 ## _Element inside a Component_
 
+## _Superpower of JSX_
+- In JSX, if you write a **`curly braces`** anywhere inside **`JSX`**, inside this curly braces, you can run any piece of **`JavaScript Expression`**
 
+<b>
+
+```js
+const number = 10000,
+
+const HeadingComponent = () => (
+  <div id="container">
+     {number}
+     <h1 className="heading">Namaste React Functional Component</h1>h1>
+  </div>
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<HeadingComponent />);
+```
+</b>
