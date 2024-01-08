@@ -78,9 +78,10 @@ root.render(<HeadingComponent />);
 
 ```js
 const Title = () => (
-  <h1 cllassName="head" tabIndex="5">
+  <h1 className="head" tabIndex="5">
     <h1>Namaste React Using JSX🚀</h1>
    </h1>
+);
 
 const HeadingComponent = () => (
  <div id="container">
