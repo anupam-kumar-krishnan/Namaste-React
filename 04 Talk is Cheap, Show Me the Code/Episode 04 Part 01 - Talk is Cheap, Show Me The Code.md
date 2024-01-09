@@ -6,6 +6,23 @@
 - You should exactly know,what you are going to build 
 - In the planning comes the UI Design
 
+## _Components of Food Ordering App_
+
+### _Header_
+   - Logo
+   - Nav Items
+### _Body_
+   - Search
+   - ResturantContainer
+      - ResturantCard
+### _Footer_
+   - Copyrights
+   - Links
+   - Address
+   - Contact
+ 
+
+
 
 
 
