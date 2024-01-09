@@ -20,6 +20,53 @@
    - Links
    - Address
    - Contact
+
+## _Inline Styles in React_
+- Written like an object
+- Inline Styles is not prefered way to write code
+
+
+<b>
+
+```js
+const styleCard = {
+  backgroundColor: "yellow"
+}
+
+const ResturantCard = () => {
+  return (
+    <div className="res-card" style={styleCard}>
+      <h3>Meghna Foods</h3>
+    </div>
+  );
+};
+```
+OR
+
+## _Why we write two bracket here_
+- First bracket is to tell, there is some piece of `JavaScript` insde it
+- Second braket is the `JavaScript Object`
+
+
+```js
+const ResturantCard = () => {
+  return (
+    <div className="res-card" style={{
+       backgroundColor: "yellow"
+     }}>
+      <h3>Meghna Foods</h3>
+    </div>
+  );
+};
+```
+
+</b>
+
+
+
+
+
+
  
 
 
