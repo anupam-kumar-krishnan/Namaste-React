@@ -22,10 +22,37 @@
     - If there is something on the top or the bottom of the page, we can still use React in that small portion of the page
 </details>
 
-
-
-
-02. Igniting our App<br>
+<b><i>
+<details>
+<summary>02. Igniting our App</summary>
+    
+    Part 1
+    - What Igniting Our App means
+    - Can react alone make a production ready app
+    - How you can make your production ready app? How we can get those packages in our app
+       - What is not NPM?
+       - What NPM actually is?
+    - Why do we need package.json
+    - The most important Package: Bundler
+    - Some of Bundler
+    - Parcel
+    - Types of Dependencies
+       - Dev Dependencies
+       - Normal Dependencies
+    - Carent(^) in package.json
+    - Tilde(~) in package.json
+    - package.json
+    - package-lock.json
+    - shash2 in parcel
+    - Node Modules
+    - Transitive Dependency
+    - What to Push on GitHub
+        - Should I Push all these node_modules to GitHub
+        - Should I Push package.json and package-lock.json to GitHub
+        - Why we don't push node modules to GitHub
+</details>
+    
+    
 03. Laying the foundation
 04. Talk is Cheap, Show me the code
 05. Let's Get Hooked
