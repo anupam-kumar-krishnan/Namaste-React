@@ -91,6 +91,16 @@ const { resName, cuisine } = props;
 };
 ```
 
+## _Config Driven UI_
+- Websites are driven by **_Configs_**
+- Config-driven UI is a technique that allows you to create user interfaces based on a configuration file, such as JSON, or a TypeScript file that defines the layout and content of the UI components. This can be useful for creating dynamic and customizable UIs without hard coding them
+- For e.g. different colour of banner for different cities in Swiggy
+
+### _Good Frontend Egineer Should be good at both_
+- UI Layer 
+- Data Layer
+
+
 
 
 
