@@ -8,6 +8,8 @@
 
 ## _Components of Food Ordering App_
 
+![Food UI](https://github.com/anupam-kumar-krishnan/Namaste-React/assets/69143883/5c5734fb-5552-415c-af0c-7c1cf32644c8)
+
 ### _Header_
    - Logo
    - Nav Items
