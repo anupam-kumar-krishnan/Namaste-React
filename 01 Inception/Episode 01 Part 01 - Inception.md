@@ -1,15 +1,16 @@
 # _Namaste React EP1 Part 01_ 🚀
 - A <b>_JavaScript Library_</b>, **_not_** a **_Framework_**
 
+_**Before Starting**_
+1. Make your own Notes
+2. Use your Laptop/Desktop
+3. Pause the video and try to code along
+4. Maintain a GitHub Repo
+
 ### _Episode 1_
 
-_**Before Starting**_
-1. Make Notes
-2. Use Laptop - Learn and Apply the same
-3. Maintain a GitHub Repository
-
 ### _Tools_
-- Google Chrome(Developer Console)
+- Google Chrome (Developer Console)
 - VS Code
 
 ### _Small Recap of HTML, CSS and JS_
