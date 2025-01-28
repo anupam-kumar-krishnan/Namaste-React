@@ -58,7 +58,7 @@ const parent = React.createElement(
          <h1>I'm H1 tag</h1>
          <h2>I'm H2 tag</h2>
      </div>
-<div id="child"2>
+<div id="child2">
          <h1>I'm h1 tag</h1>
          <h2>I'm h2 tag</h2>
        </div>
