@@ -96,8 +96,8 @@ A transitive dependency is one not imported directly into the project at hand, b
 
 ## _Should I push all these node_modules code to GitHub?🤔💭_
 - The answer is absolutely **_NO_**.
-- So what we will do is, we will put this node_modules inside `.gitignore` file
-- `.gitignore:` If you want something to not go on Github, just put inside `.gitignore` file
+- So what we will do is, we will put this node_modules inside **`.gitignore`** file
+- **`.gitignore:`** If you want something to not go on Github, just put inside **`.gitignore`** file
 
 ## _Should I push package.json and package-lock.json on GitHub?🤔💭_
 - The answer is absolutely **_YES_**
