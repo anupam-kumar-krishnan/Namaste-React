@@ -115,9 +115,9 @@ _**In JSX, we write:**_
 ```jsx
 const jsxHeading = <h1 className="head">Namaste React using JSX 🚀</h1>;
 ```
+</b>
 
 ## _Multiple Line_
  - If you write JSX is multiple lines, then it is mandatory to enclose the code in backets which makes `Babel` easy to understand where JSX is starting and where it is ending
 
 
-</b>
