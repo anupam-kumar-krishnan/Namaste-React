@@ -22,7 +22,7 @@ In the previous parts, we have ejected react using two files i.e. <b><i>Core of 
 
 ![react error](https://github.com/anupam-kumar-krishnan/Namaste-React/assets/69143883/40cdd062-4251-4be1-8ab3-fe062a10fc24)
 
-As seeen above, if we write the <b>`<script src="./app.js"></script>`</b>, this will throw an error saying <b>`React`</b> is <b>`not defined`</b>
+As seen above, if we write the <b>`<script src="./app.js"></script>`</b>, this will throw an error saying <b>`React`</b> is <b>`not defined`</b>
 
 
 
