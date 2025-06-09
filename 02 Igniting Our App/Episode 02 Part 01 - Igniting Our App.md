@@ -81,7 +81,7 @@ We will be using **`Parcel`** Bundler
 - It kind of locks the version and keeps the record of it
 - It keeps the **_exact version_** of packages
 
-### _shash2 in parcel (package-lock.json)_
+### _sha512 in parcel (package-lock.json)_
 - Have you herd that sometimes, code works on local but breaks on production
 - It keeps the shash that whatever is in my dev machine, is the same version which is being deployed onto the production.
 
