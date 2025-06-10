@@ -5,7 +5,7 @@
 <b>
 
 ```js
-npx parcel index.html
+npx parcel build index.html // development build
 ```
 </b>
 
