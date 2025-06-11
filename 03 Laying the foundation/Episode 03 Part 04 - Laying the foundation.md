@@ -60,6 +60,19 @@ const HeadingComponent = () => (
 );
 ```
 
+```js
+// both are same one with return or without return
+// return is a standard for writing React code
+
+const HeadingComponent = () => {
+    return <h1 className="heading">Namaste Rect Functional Componenr</h1>;
+};
+
+const HeadingComponent2 = () => {
+    <h1 className="heading">Namaste React Functional Component</h1>
+);
+```
+
 ## _How we will render `Component` inside `root`_
 
 ```js
