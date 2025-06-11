@@ -41,7 +41,7 @@ npx parcel build index.html // development build
 </b>
 
 
-**_Build for Prouction:_**
+**_Build for Production:_**
 <b>
 
  ```js
