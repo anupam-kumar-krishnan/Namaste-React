@@ -37,6 +37,9 @@
 ## _The most important package: Bundler_
 - Bundler basically bundles your app, packages your app properly so that it can be shipped to production
 
+## _Bundler_
+Bundlers are essential tools in modern web development, particularly when working with frameworks like React. They are responsible for taking various files (JavaScript, CSS, images, etc.) within a React application and combining them into a single or a few optimized bundles for deployment.
+
 ## _Some of Bundler:_
 - Webpack
 - Parcel
