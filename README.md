@@ -1,6 +1,6 @@
 # _Content ⚛️ 🚀_
 
-<b><i>
+
 <details>
 <summary>01. Inception</summary>
 
@@ -22,7 +22,7 @@
     - If there is something on the top or the bottom of the page, we can still use React in that small portion of the page
 </details>
 
-<b><i>
+
 <details>
 <summary>02. Igniting our App</summary>
     
@@ -68,5 +68,5 @@
 15. Bonus
 
 
-</i></b>
+
 
