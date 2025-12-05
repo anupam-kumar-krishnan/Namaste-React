@@ -1,4 +1,4 @@
-# _Content ⚛️ 🚀_
+# _Content ⚛️_
 
 
 <details>
