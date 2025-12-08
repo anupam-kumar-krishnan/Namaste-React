@@ -69,6 +69,27 @@ We will be using **`Parcel`** Bundler
 - It will install **_"Major Version Automatically"_**
 
 ## ⚠️ _Important: Caret(^) vs Tilde(~)_
+> `^` allows both minor and patch updates while keeping the major version fixed, whereas `~` allows only patch updates while keeping both major and minor versions fixed.
+
+### _In Short:_ `Caret allows minor and patch updates, whereas tilde allows only patch updates.`
+
+## Difference between Caret(^) and Tilde(~)
+
+| Feature                  | Caret (`^`)                    | Tilde (`~`)                 |
+| ------------------------ | ------------------------------ | --------------------------- |
+| Purpose                  | Allows safe feature updates    | Allows only small bug fixes |
+| Updates Allowed          | ✅ Minor + Patch                | ✅ Patch only                |
+| Major Version Change     | ❌ Not allowed                  | ❌ Not allowed               |
+| Minor Version Change     | ✅ Allowed                      | ❌ Not allowed               |
+| Patch Version Change     | ✅ Allowed                      | ✅ Allowed                   |
+| Example                  | `^18.2.0`                      | `~18.2.0`                   |
+| Can Install              | 18.2.1, 18.3.0                 | 18.2.1, 18.2.9              |
+| Cannot Install           | 19.0.0                         | 18.3.0                      |
+| Stability                | Medium                         | High                        |
+| Flexibility              | High                           | Low                         |
+| Common Usage in React    | Most libraries (react, router) | Strict APIs, utilities      |
+| Risk of Breaking Changes | Low                            | Very Low                    |
+
 
 ## ‼️ _Important Points:_
 ### _package.json_
