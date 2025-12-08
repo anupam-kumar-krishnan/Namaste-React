@@ -130,8 +130,19 @@ We will be using **`Parcel`** Bundler
 
 
 ## _Node Modules_
+> `node_modules` is the directory that contains all installed npm packages required by a React application, including both direct and indirect dependencies.
+
 - It contains all the code that we fetched from **_NPM_**
 - It has _**actual data of dependencies**_ that our project needs and that's why it is **_Huge_**
+
+### Why Is node_modules So Huge?
+
+Because it includes:
+
+- Your dependencies
+- Their dependencies
+- And their dependencies… <br>
+  ➡️ This creates a deep dependency tree
 
 ## _Transitive dependency_
 A transitive dependency is one not imported directly into the project at hand, but instead imported by a direct dependency or another transitive dependency. 
@@ -143,8 +154,8 @@ A transitive dependency is one not imported directly into the project at hand, b
 
 ## _Should I push package.json and package-lock.json on GitHub?🤔💭_
 - The answer is absolutely **_YES_**
-- package.json and package-lock.json maintains a note of what all dependencies a project needs
-- Now you understand why package-lock.json is huge, it is basically maintaining the exact version of each dependency
+- `package.json` and `package-lock.json` maintains a note of what all dependencies the project needs
+- Now you understand why `package-lock.json` is huge, it is basically maintaining the exact version of each dependency
 
 ## _Why we don't push node modules to GitHub?🤔💭_
 - If you have _**package.json**_ and _**package-lock.json**_, you can recreate all your _**node modules**_ 
