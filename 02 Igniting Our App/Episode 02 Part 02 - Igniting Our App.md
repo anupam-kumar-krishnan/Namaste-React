@@ -17,8 +17,8 @@ npx parcel index.html
 - Parcel goes to the index.html and builds a development build for our app. <br>And it host that development build to our localhost:1234
 
 ## _Ways to get React into our app_
-- Via _**Content Delivery Network(CDN)**_ <br>(This is not a prefered way to bring react and react-dom)
-- Via npm
+- Via _**Content Delivery Network(CDN)**_ <br>(❌ This is not a prefered way to bring react and react-dom ❌)
+- Via **NPM**
 
 ## _install react as a package_
 <b>
