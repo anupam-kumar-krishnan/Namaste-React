@@ -117,6 +117,11 @@ const jsxHeading = <h1 className="head">Namaste React using JSX 🚀</h1>;
 ```
 </b>
 
+### NOTE:
+- JSX (transpiled before it reaches the JS) - PARCEL - Babel
+- JSX => React.createElement => ReactElement - JS Object => HTMLElement(render)
+- This JSX code converts into React.createElement behind the scenes. At the end of the day, JSX is React.createElement at the end of the day
+
 ## _Multiple Line_
  - If you write JSX is multiple lines, then it is mandatory to enclose the code in backets which makes `Babel` easy to understand where JSX is starting and where it is ending
 
