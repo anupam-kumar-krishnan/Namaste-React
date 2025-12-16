@@ -68,7 +68,7 @@ root.render(<HeadingComponent />);
 - It will sanitize the data and then pass it
 - It prevents **_Cross-Site Attacks_** for you
 
-## _Ways of writing React Element or Component inside another Componet_
+## _Ways of writing React Element or Component inside another Component_
 
 <b>
 
