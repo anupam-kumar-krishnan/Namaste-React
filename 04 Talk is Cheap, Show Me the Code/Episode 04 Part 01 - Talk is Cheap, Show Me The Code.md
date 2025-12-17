@@ -10,6 +10,9 @@
 
 ![Food UI](https://github.com/anupam-kumar-krishnan/Namaste-React/assets/69143883/5c5734fb-5552-415c-af0c-7c1cf32644c8)
 
+<img width="829" height="947" alt="image" src="https://github.com/user-attachments/assets/a67eb685-270a-423e-a3f2-a638eeb01e72" />
+
+
 ### _Header_
    - Logo
    - Nav Items
