@@ -91,6 +91,8 @@ const { resName, cuisine } = props;
 };
 ```
 
+</b>
+
 ## _Config Driven UI_
 - Websites are driven by **_Configs_**
 - Config-driven UI is a technique that allows you to create user interfaces based on a configuration file, such as JSON, or a TypeScript file that defines the layout and content of the UI components. This can be useful for creating dynamic and customizable UIs without hard coding them
@@ -101,12 +103,21 @@ const { resName, cuisine } = props;
 - UI Layer 
 - Data Layer
 
+<hr>
+
+### Points
+- These should be uniquely represented
+- React will re-render all these restaurants
+- React doesn't know at which place the new card should come
+- Whenever we use map, always  write key
+
+<img width="800" height="697" alt="image" src="https://github.com/user-attachments/assets/58369271-6b46-466e-8019-cbdeccf727f7" />
 
 
 
 
 
-</b>
+
 
 
 
