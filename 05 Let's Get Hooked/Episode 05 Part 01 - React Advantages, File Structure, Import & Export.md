@@ -13,4 +13,19 @@
 
 <hr/>
 
+## React File Structure
+- Place every single component in one single file named 'components'
+- The filename should start with capital alphabet
+
+- src
+  - components
+    - Header.js
+    - HeroSection.js
+    - RestaurantCard.js
+    - MobileSection.js
+    - Footer.js 
+
+## Import & Export
+
+
 ## React Hooks ⚛️
