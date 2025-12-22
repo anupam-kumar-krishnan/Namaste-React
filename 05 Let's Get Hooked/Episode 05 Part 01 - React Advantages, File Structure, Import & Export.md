@@ -26,6 +26,20 @@
     - Footer.js 
 
 ## Import & Export
+- Once we have moved these componenets in single file, we have to first export every single component
+- And then to use, we need to import the same
+- First Export then Import
+- We can ignore the file extension while importing the component
+- Never keep hardcoded data (APIs) in components folder
 
+### Types pf Export/Import
+- Named
+  - Export: `export const Component`
+  - Import: `import {Component} from "path";`
+- Default
+  - Export: `export default Component`
+  - Import: `import Component from "path";`
 
-## React Hooks ⚛️
+- Note:
+  -  Wherever we have named export like CON_URL, we have to write it in curly braces while importing
+  -  Default exports need not to be written inside curly braces
