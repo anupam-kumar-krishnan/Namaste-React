@@ -43,3 +43,9 @@
 - Note:
   -  Wherever we have named export like CON_URL, we have to write it in curly braces while importing
   -  Default exports need not to be written inside curly braces
+ 
+## React Hooks ⚛️
+
+(Normal JS Utility Functions)
+- `useState()` - Superpowerful State Variables in React
+- `useEffect()`
