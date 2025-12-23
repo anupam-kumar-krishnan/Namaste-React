@@ -52,6 +52,8 @@
 
 ## Reconciliation Algorithm (React Fiber)
 
+### _[React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)_
+
 <img width="1025" height="605" alt="image" src="https://github.com/user-attachments/assets/3fcdb577-b7b1-4535-812f-60613e51f950" />
 <img width="1001" height="568" alt="image" src="https://github.com/user-attachments/assets/7f8fe9ad-5688-4f24-ba05-d99ace8903e5" />
 
