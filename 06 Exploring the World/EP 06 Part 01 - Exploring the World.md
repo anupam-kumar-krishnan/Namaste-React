@@ -35,11 +35,11 @@ Separation of Concerns means:
 
 ### Benefits of SoC
 
-- 🚀 Scalability
-- 🛠 Maintainability
-- 🧪 Easier testing
-- ♻️ Reusability
-- 👥 Team collaboration
+🚀 Scalability<br>
+🛠 Maintainability<br>
+🧪 Easier testing<br>
+♻️ Reusability<br>
+👥 Team collaboration<br>
 
 <hr/>
 
